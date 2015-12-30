@@ -1,0 +1,22 @@
+{
+  "name": "npm.link",
+  "version": "1.0.0",
+  "description": "short URL for npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npmbest/npm.link.git"
+  },
+  "author": "Zongmin Lei <leizongmin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npmbest/npm.link/issues"
+  },
+  "homepage": "https://github.com/npmbest/npm.link#readme",
+  "dependencies": {
+    "connect": "^3.4.0"
+  }
+}

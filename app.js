@@ -7,9 +7,9 @@
  */
 
 const connect = require('connect');
+const config = require('./config');
 
-const port = process.env.PORT;
-if (!(port > 0)) {
+if (!(config.port > 0)) {
   throw new Error('please set up a port: `port=xxx`');
 }
 
@@ -40,10 +40,10 @@ app.use(function (req, res, next) {
 
 });
 
-app.listen(port, (err) => {
+app.listen(config.port, (err) => {
   if (err) {
     throw err;
   } else {
-    console.log(`info: server listening on port ${port}`);
+    console.log(`info: server listening on port ${config.port}`);
   }
 });

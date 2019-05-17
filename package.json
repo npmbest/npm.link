@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/npmbest/npm.link#readme",
   "dependencies": {
-    "connect": "^3.4.0"
+    "connect": "^3.6.7"
   }
 }
